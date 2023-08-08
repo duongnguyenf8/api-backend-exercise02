@@ -1,11 +1,10 @@
 {
-  "name": "build",
-  "version": "1.0.0",
-  "description": "API OTP Server",
+  "name": "api-backend-exercise02",
+  "main": "server",
   "scripts": {
-    "start": "json-server db.json --watch --port=3002"
+    "start": "node server"
   },
-  "dependencies": {
+  "devDependencies": {
     "json-server": "^0.17.3"
   }
 }
